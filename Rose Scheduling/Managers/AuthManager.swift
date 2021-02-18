@@ -56,6 +56,10 @@ class AuthManager {
             print ("Error signing out: %@", signOutError)
         }
     }
+    
+    func uid() -> String {
+        return currentUser?.uid ?? ""
+    }
 }
 
 

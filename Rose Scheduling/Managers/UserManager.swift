@@ -101,21 +101,21 @@ class UserManager {
     
     // Update
     func updateName(name: String) {
-        let userRef = _collectionRef.document(Auth.auth().currentUser!.uid)
+        let userRef = _collectionRef.document(AuthManager.shared.uid())
         userRef.updateData([
             kKeyName: name,
         ])
     }
     
     func updateSeenTutorial(seen: Bool) {
-        let userRef = _collectionRef.document(Auth.auth().currentUser!.uid)
+        let userRef = _collectionRef.document(AuthManager.shared.uid())
         userRef.updateData([
             kKeySeenTutorial: seen,
         ])
     }
     
     func updateAvailablity(day: Day, time: Int, value: Bool) {
-        let userRef = _collectionRef.document(Auth.auth().currentUser!.uid)
+        let userRef = _collectionRef.document(AuthManager.shared.uid())
         var key = kKeySunday
         switch day {
         case .sunday:
@@ -142,7 +142,7 @@ class UserManager {
     }
     
     func toggleAvailablity(day: Day, time: Int) {
-        let userRef = _collectionRef.document(Auth.auth().currentUser!.uid)
+        let userRef = _collectionRef.document(AuthManager.shared.uid())
         var key = kKeySunday
         switch day {
         case .sunday:

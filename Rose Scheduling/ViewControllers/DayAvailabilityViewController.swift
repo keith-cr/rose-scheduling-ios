@@ -21,7 +21,7 @@ class DayAvailabilityViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        UserManager.shared.beginListening(uid: Auth.auth().currentUser!.uid) {
+        UserManager.shared.beginListening(uid: AuthManager.shared.uid()) {
             self.tableView.reloadData()
         }
     }
