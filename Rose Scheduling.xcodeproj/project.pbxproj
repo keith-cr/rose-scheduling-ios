@@ -3,27 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5306C83025DA199500C14D40 /* MembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306C82F25DA199500C14D40 /* MembersTableViewController.swift */; };
+		5306C83925DA2A0600C14D40 /* MemberSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306C83825DA2A0600C14D40 /* MemberSearchViewController.swift */; };
+		5306C83C25DA2C4A00C14D40 /* UserSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306C83B25DA2C4A00C14D40 /* UserSearchManager.swift */; };
+		5306C84025DB139700C14D40 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306C83F25DB139700C14D40 /* Utils.swift */; };
+		5307CBE225D1E22200473231 /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307CBE125D1E22200473231 /* MeetingViewController.swift */; };
+		5307CBE525D1E41800473231 /* MeetingTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307CBE425D1E41800473231 /* MeetingTableController.swift */; };
+		5307CBE825D1E94D00473231 /* MeetingAvailabilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307CBE725D1E94D00473231 /* MeetingAvailabilityCell.swift */; };
+		5307CBEB25D1E9D500473231 /* MeetingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307CBEA25D1E9D500473231 /* MeetingManager.swift */; };
+		5307CBEF25D1F34800473231 /* MeetingDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307CBEE25D1F34800473231 /* MeetingDayViewController.swift */; };
+		5317CE0925CC9CF0009097CB /* DayAvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317CE0825CC9CF0009097CB /* DayAvailabilityViewController.swift */; };
+		5317CE0C25CC9D60009097CB /* AvailabilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317CE0B25CC9D60009097CB /* AvailabilityCell.swift */; };
 		533A289025C89E5000AEA631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A288F25C89E5000AEA631 /* AppDelegate.swift */; };
 		533A289225C89E5000AEA631 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A289125C89E5000AEA631 /* SceneDelegate.swift */; };
-		533A289425C89E5000AEA631 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A289325C89E5000AEA631 /* ViewController.swift */; };
 		533A289725C89E5000AEA631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533A289525C89E5000AEA631 /* Main.storyboard */; };
 		533A289925C89E5000AEA631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533A289825C89E5000AEA631 /* Assets.xcassets */; };
 		533A289C25C89E5000AEA631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533A289A25C89E5000AEA631 /* LaunchScreen.storyboard */; };
+		533A28A525C89EF200AEA631 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 533A28A425C89EF200AEA631 /* GoogleService-Info.plist */; };
+		533A28D625C8AA0600AEA631 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A28D525C8AA0600AEA631 /* WelcomeViewController.swift */; };
+		533A28DD25C8AADB00AEA631 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A28DC25C8AADB00AEA631 /* AuthManager.swift */; };
+		533A28E025C8AB1000AEA631 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A28DF25C8AB1000AEA631 /* UserManager.swift */; };
+		5356043225D0FC7A005607AC /* AvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356043125D0FC7A005607AC /* AvailabilityViewController.swift */; };
+		5356044D25D100E8005607AC /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356044C25D100E8005607AC /* UIViewExtension.swift */; };
+		5356045025D1A890005607AC /* MeetingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356044F25D1A890005607AC /* MeetingsManager.swift */; };
+		5356045425D1AB1B005607AC /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356045325D1AB1B005607AC /* Meeting.swift */; };
+		5356045825D1AE43005607AC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356045725D1AE43005607AC /* UserModel.swift */; };
+		537F3FCB25C9BCDC002DABAA /* MeetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537F3FCA25C9BCDC002DABAA /* MeetingsViewController.swift */; };
+		53C9C25E25DB77DE00418EC1 /* ImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9C25D25DB77DE00418EC1 /* ImportViewController.swift */; };
+		53EF069D25C9C42F00D075D5 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EF069C25C9C42F00D075D5 /* ColorUtils.swift */; };
+		53EF06A125C9C5C000D075D5 /* AvailabilityTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EF06A025C9C5C000D075D5 /* AvailabilityTableController.swift */; };
+		6C81241126CF967FAFBFC607 /* Pods_Rose_Scheduling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B92B3D85311829CB75690A /* Pods_Rose_Scheduling.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07B92B3D85311829CB75690A /* Pods_Rose_Scheduling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rose_Scheduling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		141174EA373009DFBB6B3C06 /* Pods-Rose Scheduling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rose Scheduling.release.xcconfig"; path = "Target Support Files/Pods-Rose Scheduling/Pods-Rose Scheduling.release.xcconfig"; sourceTree = "<group>"; };
+		284EC4FE4CA9A7B0E3743048 /* Pods-Rose Scheduling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rose Scheduling.debug.xcconfig"; path = "Target Support Files/Pods-Rose Scheduling/Pods-Rose Scheduling.debug.xcconfig"; sourceTree = "<group>"; };
+		5306C82F25DA199500C14D40 /* MembersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersTableViewController.swift; sourceTree = "<group>"; };
+		5306C83825DA2A0600C14D40 /* MemberSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberSearchViewController.swift; sourceTree = "<group>"; };
+		5306C83B25DA2C4A00C14D40 /* UserSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchManager.swift; sourceTree = "<group>"; };
+		5306C83F25DB139700C14D40 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5307CBE125D1E22200473231 /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
+		5307CBE425D1E41800473231 /* MeetingTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTableController.swift; sourceTree = "<group>"; };
+		5307CBE725D1E94D00473231 /* MeetingAvailabilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingAvailabilityCell.swift; sourceTree = "<group>"; };
+		5307CBEA25D1E9D500473231 /* MeetingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingManager.swift; sourceTree = "<group>"; };
+		5307CBEE25D1F34800473231 /* MeetingDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDayViewController.swift; sourceTree = "<group>"; };
+		5317CE0825CC9CF0009097CB /* DayAvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayAvailabilityViewController.swift; sourceTree = "<group>"; };
+		5317CE0B25CC9D60009097CB /* AvailabilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityCell.swift; sourceTree = "<group>"; };
 		533A288C25C89E5000AEA631 /* Rose Scheduling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rose Scheduling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		533A288F25C89E5000AEA631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		533A289125C89E5000AEA631 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		533A289325C89E5000AEA631 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		533A289625C89E5000AEA631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		533A289825C89E5000AEA631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		533A289B25C89E5000AEA631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		533A289D25C89E5000AEA631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533A28A425C89EF200AEA631 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		533A28D525C8AA0600AEA631 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		533A28DC25C8AADB00AEA631 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		533A28DF25C8AB1000AEA631 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		5356043125D0FC7A005607AC /* AvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewController.swift; sourceTree = "<group>"; };
+		5356044C25D100E8005607AC /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5356044F25D1A890005607AC /* MeetingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsManager.swift; sourceTree = "<group>"; };
+		5356045325D1AB1B005607AC /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		5356045725D1AE43005607AC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		537F3FCA25C9BCDC002DABAA /* MeetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsViewController.swift; sourceTree = "<group>"; };
+		53C9C25D25DB77DE00418EC1 /* ImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewController.swift; sourceTree = "<group>"; };
+		53EF069C25C9C42F00D075D5 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		53EF06A025C9C5C000D075D5 /* AvailabilityTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityTableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C81241126CF967FAFBFC607 /* Pods_Rose_Scheduling.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +93,8 @@
 			children = (
 				533A288E25C89E5000AEA631 /* Rose Scheduling */,
 				533A288D25C89E5000AEA631 /* Products */,
+				B52B58A03899DDCF6066E618 /* Pods */,
+				DBBA4505563F015623A3F427 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +109,79 @@
 		533A288E25C89E5000AEA631 /* Rose Scheduling */ = {
 			isa = PBXGroup;
 			children = (
+				533A289525C89E5000AEA631 /* Main.storyboard */,
+				533A28D925C8AAB900AEA631 /* Managers */,
+				533A28D325C8A2D200AEA631 /* ViewControllers */,
+				533A28D825C8AA9300AEA631 /* Models */,
 				533A288F25C89E5000AEA631 /* AppDelegate.swift */,
 				533A289125C89E5000AEA631 /* SceneDelegate.swift */,
-				533A289325C89E5000AEA631 /* ViewController.swift */,
-				533A289525C89E5000AEA631 /* Main.storyboard */,
 				533A289825C89E5000AEA631 /* Assets.xcassets */,
 				533A289A25C89E5000AEA631 /* LaunchScreen.storyboard */,
 				533A289D25C89E5000AEA631 /* Info.plist */,
+				533A28A425C89EF200AEA631 /* GoogleService-Info.plist */,
+				53EF069C25C9C42F00D075D5 /* ColorUtils.swift */,
+				5356044C25D100E8005607AC /* UIViewExtension.swift */,
+				5306C83F25DB139700C14D40 /* Utils.swift */,
 			);
 			path = "Rose Scheduling";
+			sourceTree = "<group>";
+		};
+		533A28D325C8A2D200AEA631 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				533A28D525C8AA0600AEA631 /* WelcomeViewController.swift */,
+				537F3FCA25C9BCDC002DABAA /* MeetingsViewController.swift */,
+				53EF06A025C9C5C000D075D5 /* AvailabilityTableController.swift */,
+				5317CE0825CC9CF0009097CB /* DayAvailabilityViewController.swift */,
+				5317CE0B25CC9D60009097CB /* AvailabilityCell.swift */,
+				5356043125D0FC7A005607AC /* AvailabilityViewController.swift */,
+				5307CBE125D1E22200473231 /* MeetingViewController.swift */,
+				5307CBE425D1E41800473231 /* MeetingTableController.swift */,
+				5307CBE725D1E94D00473231 /* MeetingAvailabilityCell.swift */,
+				5307CBEE25D1F34800473231 /* MeetingDayViewController.swift */,
+				5306C82F25DA199500C14D40 /* MembersTableViewController.swift */,
+				5306C83825DA2A0600C14D40 /* MemberSearchViewController.swift */,
+				53C9C25D25DB77DE00418EC1 /* ImportViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		533A28D825C8AA9300AEA631 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5356045325D1AB1B005607AC /* Meeting.swift */,
+				5356045725D1AE43005607AC /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		533A28D925C8AAB900AEA631 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				533A28DC25C8AADB00AEA631 /* AuthManager.swift */,
+				533A28DF25C8AB1000AEA631 /* UserManager.swift */,
+				5356044F25D1A890005607AC /* MeetingsManager.swift */,
+				5307CBEA25D1E9D500473231 /* MeetingManager.swift */,
+				5306C83B25DA2C4A00C14D40 /* UserSearchManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B52B58A03899DDCF6066E618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				284EC4FE4CA9A7B0E3743048 /* Pods-Rose Scheduling.debug.xcconfig */,
+				141174EA373009DFBB6B3C06 /* Pods-Rose Scheduling.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBBA4505563F015623A3F427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B92B3D85311829CB75690A /* Pods_Rose_Scheduling.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 533A28A025C89E5000AEA631 /* Build configuration list for PBXNativeTarget "Rose Scheduling" */;
 			buildPhases = (
+				A7ACD4B08F51B37BE92295BD /* [CP] Check Pods Manifest.lock */,
 				533A288825C89E5000AEA631 /* Sources */,
 				533A288925C89E5000AEA631 /* Frameworks */,
 				533A288A25C89E5000AEA631 /* Resources */,
+				B86FA4D9193F16356B4AB431 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533A28A525C89EF200AEA631 /* GoogleService-Info.plist in Resources */,
 				533A289C25C89E5000AEA631 /* LaunchScreen.storyboard in Resources */,
 				533A289925C89E5000AEA631 /* Assets.xcassets in Resources */,
 				533A289725C89E5000AEA631 /* Main.storyboard in Resources */,
@@ -132,14 +252,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A7ACD4B08F51B37BE92295BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rose Scheduling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B86FA4D9193F16356B4AB431 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rose Scheduling/Pods-Rose Scheduling-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rose Scheduling/Pods-Rose Scheduling-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rose Scheduling/Pods-Rose Scheduling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		533A288825C89E5000AEA631 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533A289425C89E5000AEA631 /* ViewController.swift in Sources */,
+				5307CBE525D1E41800473231 /* MeetingTableController.swift in Sources */,
+				5356043225D0FC7A005607AC /* AvailabilityViewController.swift in Sources */,
+				53EF06A125C9C5C000D075D5 /* AvailabilityTableController.swift in Sources */,
+				537F3FCB25C9BCDC002DABAA /* MeetingsViewController.swift in Sources */,
+				5356045025D1A890005607AC /* MeetingsManager.swift in Sources */,
+				5317CE0925CC9CF0009097CB /* DayAvailabilityViewController.swift in Sources */,
+				533A28E025C8AB1000AEA631 /* UserManager.swift in Sources */,
+				5356045425D1AB1B005607AC /* Meeting.swift in Sources */,
+				5306C83925DA2A0600C14D40 /* MemberSearchViewController.swift in Sources */,
+				53EF069D25C9C42F00D075D5 /* ColorUtils.swift in Sources */,
+				5307CBE825D1E94D00473231 /* MeetingAvailabilityCell.swift in Sources */,
+				5306C83025DA199500C14D40 /* MembersTableViewController.swift in Sources */,
+				5356045825D1AE43005607AC /* UserModel.swift in Sources */,
+				5307CBEB25D1E9D500473231 /* MeetingManager.swift in Sources */,
+				533A28D625C8AA0600AEA631 /* WelcomeViewController.swift in Sources */,
 				533A289025C89E5000AEA631 /* AppDelegate.swift in Sources */,
+				5356044D25D100E8005607AC /* UIViewExtension.swift in Sources */,
+				5307CBEF25D1F34800473231 /* MeetingDayViewController.swift in Sources */,
+				5306C83C25DA2C4A00C14D40 /* UserSearchManager.swift in Sources */,
 				533A289225C89E5000AEA631 /* SceneDelegate.swift in Sources */,
+				5307CBE225D1E22200473231 /* MeetingViewController.swift in Sources */,
+				5317CE0C25CC9D60009097CB /* AvailabilityCell.swift in Sources */,
+				53C9C25E25DB77DE00418EC1 /* ImportViewController.swift in Sources */,
+				533A28DD25C8AADB00AEA631 /* AuthManager.swift in Sources */,
+				5306C84025DB139700C14D40 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +467,7 @@
 		};
 		533A28A125C89E5000AEA631 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284EC4FE4CA9A7B0E3743048 /* Pods-Rose Scheduling.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +487,7 @@
 		};
 		533A28A225C89E5000AEA631 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141174EA373009DFBB6B3C06 /* Pods-Rose Scheduling.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
